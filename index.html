@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <label for="cadInput">Enter amount in Canadian Dollars (CAD):</label>
+        <input type="number" id="cadInput" placeholder="Enter CAD" required>
+        <button onclick="convertToUSD()">Convert to USD</button>
+        <div id="usdResult"></div>
+
+        <label for="usdInput">Enter amount in US Dollars (USD):</label>
+        <input type="number" id="usdInput" placeholder="Enter USD" required>
+        <button onclick="convertToCAD()">Convert to CAD</button>
+        <div id="cadResult"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
